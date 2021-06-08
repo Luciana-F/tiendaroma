@@ -1,0 +1,21 @@
+//import secciones
+@import "general";
+@import "menu";
+@import "seccioncentral";
+@import "asideizq";
+@import "asideder";
+@import "footer";
+
+//import paginas
+@import "rascadores";
+@import "areneros";
+@import "juguetes";
+@import "contacto";
+@import "sucursales";
+@import "micuenta";
+
+//pagina de error
+@import "error404";
+
+//Media Queries
+@import "mediaqueries";

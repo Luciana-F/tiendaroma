@@ -1,0 +1,44 @@
+/* Menu */
+ #btn-menu{
+    display: none;
+  }
+  .lista-menu{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    li{
+      list-style-type: none;
+      a{
+        text-decoration: none;
+        padding: 10px;
+        color: black;
+        font-style: italic;
+        font-weight: bold;
+        &:hover{
+          font-style: normal;
+          color: white;
+        }
+      }
+    }
+  }
+  nav{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  .contenedor-encabezado{
+    width: 100%;
+  }
+  .contenedor-nombre-tienda{
+    display: none;
+  }
+  #imagen-menu{
+    display: none;
+  }
+  .contenedor-logo{
+    vertical-align: middle;
+  }
+  .contenedor-imagen-mobile{
+    display: none;
+  }

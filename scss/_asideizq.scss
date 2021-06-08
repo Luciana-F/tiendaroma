@@ -1,0 +1,23 @@
+@import "variable";
+/* Aside izquierdo */
+#asideUno {
+    background-color: $color-fondo;
+    grid-area: asideUno;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; 
+  }
+  .nuestrasMarcas {
+    width: 100px;
+    height: auto; 
+  }
+  h3 {
+    color: rebeccapurple;
+    font-weight: bold;
+  }
+  h3:hover {
+    color: purple;
+    text-transform: uppercase;
+  }
+  

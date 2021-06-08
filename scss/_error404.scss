@@ -1,0 +1,26 @@
+@import "variable";
+/* PAGINA ERROR 404 */
+.error {
+    background-color: $color-fondo;
+    width: 100vw;
+    height: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column; 
+  }
+  .img404 {
+    width: auto;
+    height: auto; 
+  }
+  .contenedor-boton-404 {
+    width: 100%;
+    margin-bottom: 2%; 
+  }
+  .link-home {
+    text-decoration: none;
+    color: black; 
+  }
+  .link-home:hover {
+    color: green;
+    font-weight: bold; 
+  }

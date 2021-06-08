@@ -1,0 +1,45 @@
+@import "variable";
+/*estilos generales*/
+html {
+    padding: 0.2%;
+    margin: 0.2%; 
+  }
+  body {
+    display: grid;
+    grid-template-columns: 10% auto 10%;
+    grid-template-rows: 110px auto auto 50px;
+    grid-template-areas: "header header header"
+   "asideUno sectionUno asideDos"
+   "asideUno sectionDos asideDos"
+   "footer footer footer"; 
+  }
+  header {
+    background-color: $color-fondo;
+    grid-area: header;
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  #logo-empresa {
+    width: 100px;
+    height: 100px;
+    margin-left: -5%;
+    animation-name: logo;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 3s;
+    animation-delay: 0s; 
+  }
+  @keyframes logo {
+    0% {
+      opacity: 0; }
+    30% {
+      opacity: 1; }
+    60% {
+      opacity: 1.2; }
+    100% {
+      opacity: 1.5; } 
+  }
+  #logo-empresa:hover {
+    transform: scale(120%); }
+  

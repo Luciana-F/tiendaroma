@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Un sitio donde podés encontrar todo para tu gato y ayudar a refugios con donaciones y adopciones">
+    <meta name="keywords" content="RASCADORES, ARENEROS, REFUGIOS, GATOS, GATITO, GATITOS, ADOPCION, JUGUETES">
+    <script src="https://kit.fontawesome.com/f3fde3e629.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/estilos.css">
+    <title>Tienda Roma-Contacto</title>
+</head>
+
+<body>
+    <header class="encabezado">
+        <div class="contenedor-encabezado">
+            <input type="checkbox" id="btn-menu">
+            <label for="btn-menu">
+                <img src="media/hamburger.png" alt="" id="imagen-menu">
+            </label>
+            <nav class="menu">
+                <ul class="lista-menu">
+                    <li><a href="index.html">Sobre nosotros</a></li>
+                    <li><a href="rascadores.html">Rascadores</a></li>
+                    <li><a href="areneros.html">Areneros</a></li>
+                    <li><a href="juguetes.html">Juguetes</a></li>
+                    <li><a href="sucursales.html">Sucursales</a></li>
+                    <li><a href="micuenta.html">Mi cuenta</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="contenedor-nombre-tienda">
+            <p id="nombre-tienda">Tienda Roma</p>
+        </div>
+        <div class="contenedor-logo">
+            <a href="index.html" class="navbar-brand img-fluid"><img src="media/logouno.png" alt="logo-empresa"   id="logo-empresa" class="img-fluid"></a>
+        </div>
+
+    </header>
+    <section id="sectionUno" class="formulario-contacto">
+        <h1>¡Comunicate con nosotros!</h1>
+        <form class="row g-3">
+            <div class="col-md-6">
+              <label for="inputEmail4" class="form-label">Nombre:</label>
+              <input type="text" class="form-control" id="inputEmail4">
+            </div>
+            <div class="col-md-6">
+              <label for="inputPassword4" class="form-label">Apellido:</label>
+              <input type="text" class="form-control" id="inputPassword4">
+            </div>
+            <div class="col-12">
+              <label for="inputAddress" class="form-label">Email:</label>
+              <input type="email" class="form-control" id="inputAddress">
+            </div>
+            <div class="col-md-6">
+              <label for="inputCity" class="form-label">Dirección:</label>
+              <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="col-md-2">
+              <label for="inputZip" class="form-label">Código postal:</label>
+              <input type="text" class="form-control" id="inputZip">
+            </div>
+            <div class="col-12">
+                <label for="inputAddress2" class="form-label">Tipo de consulta:</label>
+                <input type="text" class="form-control" id="inputAddress2" placeholder="Ventas, facturación, reclamo">
+            </div>
+            <div class="form-floating">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                <label for="floatingTextarea2">Dejanos tu comentario.</label>
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Estoy de acuerdo con los términos y condiciones.
+                </label>
+              </div>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+          </form>
+        
+        
+        <!-- <h1>Comunicate con nosotros</h1>-->
+    </section>
+    <!--
+    <section id="sectionDos">
+        <article>
+            <form action="" id="seccionContacto">
+                <fieldset>
+                    <legend>Datos Personales:</legend>
+                    <label for=""></label>
+                    <label for="nombre">Nombre:</label> <input type="text" name="nombre" class="datosPersonales">
+                    <label for="apellido">Apellido:</label> <input type="text" name="apellido"
+                        class="datosPersonales"><br>
+                    <label for="telefono">Telefono:</label> <input type="tel" name="telefono" class="datosPersonales">
+                    <label for="pais">Elegí tu pais:</label><select name="pais" class="datosPersonales">
+                        <option value="argentina">Argentina</option>
+                        <option value="venezuela">Venezuela</option>
+                        <option value="bolivia">Bolivia</option>
+                        <option value="uruguay">Uruguay</option>
+                    </select> <br>
+                    <label for="direccion">Dirección:</label> <input type="text" name="direccion"
+                        class="datosPersonales">
+                    <label for="localidad">Localidad:</label> <input type="text" name="text"
+                        class="datosPersonales"><br>
+                    <label for="email">Email:</label> <input type="email" name="email" class="datosPersonales">
+                </fieldset>
+                <fieldset>
+                    <legend>Motivo de contacto:</legend>
+                    <input type="radio" name="motivo" value="facturacion" class="datosPersonales"> Facturacion
+                    <input type="radio" name="motivo" value="postventa" class="datosPersonales"> Post-Venta
+                    <input type="radio" name="motivo" value="stock" class="datosPersonales"> Stock <br>
+                    <input type="radio" name="motivo" value="envios" class="datosPersonales"> Envios
+                    <input type="radio" name="motivo" value="reclamos" class="datosPersonales"> Reclamos
+                    <input type="radio" name="motivo" value="otros" class="datosPersonales"> Otros
+                </fieldset>
+                <fieldset>
+                    <legend>Dejanos tus comentarios: </legend>
+                    <textarea name="comentarios" id="" cols="60" rows="12"></textarea>
+                </fieldset>
+                <div id="botones-contacto">
+                    <input class="btn btn-primary boton" type="submit" value="Submit">
+                    <input class="btn btn-primary boton" type="reset" value="Reset">
+                </div>
+            </form>
+        </article>
+    </section>-->
+    <aside id="asideUno">
+        <h2>Nuestras marcas:</h2>
+        <img src="media/royalcanin.webp" alt="logo-royal-canin" class="nuestrasMarcas img-fluid">
+        <img src="media/purina.webp" alt="logo-purina" class="nuestrasMarcas img-fluid">
+        <img src="media/proplan.webp" alt="logo-proplan" class="nuestrasMarcas img-fluid">
+        <img src="media/proplan.webp" alt="logo-proplan" class="nuestrasMarcas img-fluid">
+        <img src="media/whiskas.webp" alt="logo-whiskas" class="nuestrasMarcas img-fluid">
+        <img src="media/frontline.webp" alt="logo-frontline" class="nuestrasMarcas img-fluid">
+        <img src="media/michifeliz.webp" alt="logo-michifeliz" class="nuestrasMarcas img-fluid">
+        <img src="media/absorsol.webp" alt="logo-absorsol" class="nuestrasMarcas img-fluid">
+    </aside>
+    <aside id="asideDos">
+        <h3>¡Adoptá no compres!</h3>
+        <a href="https://www.instagram.com/gatitosdepalermo/?hl=es-la"><img src="media/gatitos-de-palermo.webp"
+                alt="gatitos-de-palermo" class="adopcion animate__animated animate__heartBeat img-fluid"></a>
+        <a href="https://www.instagram.com/huellitas.adopciones/?hl=es"><img src="media/huellitas-adopciones.webp"
+                alt="huellitas-adopciones" class="adopcion animate__animated animate__heartBeat img-fluid"></a>
+        <a href="https://www.instagram.com/hacefelizaungato/?hl=es-la"><img src="media/hace-feliz-a-un-gato.webp"
+                alt="hace-feliz-a-un-gato" class="adopcion animate__animated animate__heartBeat img-fluid"></a>
+        <a href="https://www.instagram.com/gatitosenadopcionarg/?hl=es"><img src="media/adopt-me.webp"
+                alt="gatitosenadopcionarg" class="adopcion animate__animated animate__heartBeat img-fluid"></a>
+        <a href="https://www.instagram.com/rescataditosenadopcionn/?hl=es-la"><img
+                src="media/rescataditosenadopcion.webp" alt="rescataditosenadopcion"
+                class="adopcion animate__animated animate__heartBeat img-fluid"></a>
+        <a href="https://www.instagram.com/gatitos_parque_chacabuco/?hl=es-la"><img
+                src="media/gatitos-parque-chacabuco.webp" alt="gatitos-parque-chacabuco"
+                class="adopcion animate__animated animate__heartBeat img-fluid"></a>
+    </aside>
+    <footer>
+        <ul class="footer">
+            <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a></li>
+            <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://telegram.org/"><i class="fab fa-telegram-plane"></i></a></li>
+            <li><a href="https://twitter.com/"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="https://mail.google.com/"><i class="fas fa-at"></i></a></li>
+            <li id="derechos">Todos los derechos reservados 2021</li>
+        </ul>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
